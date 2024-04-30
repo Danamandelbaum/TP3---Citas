@@ -1,1 +1,0 @@
-import './citas.css';

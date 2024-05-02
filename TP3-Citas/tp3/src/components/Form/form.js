@@ -3,9 +3,9 @@ import React from 'react';
 
 function Form() {
   return (
-    <div>
+    <div class = "one-half.column">
       <h2>Crear mi Cita</h2>
-      <form>
+      <form class="u-full-width">
         <label>Nombre Mascota</label>
         <input type="text" name="mascota" className="u-full-width" placeholder="Nombre Mascota" value="" />
         <label>Nombre Dueño</label>

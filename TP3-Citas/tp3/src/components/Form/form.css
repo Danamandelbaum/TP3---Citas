@@ -1,0 +1,80 @@
+
+.one-half.column {
+    width: 48%;
+}
+
+.column:first-child, .columns:first-child {
+    margin-left: 0;
+}
+
+.column, .columns {
+    margin-left: 4%;
+}
+.column, .columns {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+.u-full-width{
+    height: 38px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+
+
+.u-full-width {
+    width: 100%;
+    box-sizing: border-box;
+}
+fieldset, input, select, textarea {
+    margin-bottom: 1.5rem;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+textarea {
+    margin-bottom: 1.5rem;
+}
+textarea {
+    min-height: 65px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+    height: 38px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+textarea {
+    overflow: auto;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+
+  

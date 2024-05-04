@@ -9,7 +9,7 @@ function Cita({ mascota, propietario, fecha, hora, sintomas }) {
       <p>Fecha: <span>{fecha}</span></p>
       <p>Hora: <span>{hora}</span></p>
       <p>Sintomas: <span>{sintomas}</span></p>
-      <button className="button eliminar u-full-width">Eliminar</button>
+      <button className="button eliminar u-full-width">ELIMINAR x</button>
     </div>
   );
 }

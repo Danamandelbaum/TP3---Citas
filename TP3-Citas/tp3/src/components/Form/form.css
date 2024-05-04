@@ -1,6 +1,7 @@
 
 .one-half.column {
     width: 48%;
+   
 }
 
 .column:first-child, .columns:first-child {
@@ -15,21 +16,19 @@
     float: left;
     box-sizing: border-box;
 }
-.u-full-width{
-    height: 38px;
-    padding: 6px 10px;
-    background-color: #fff;
-    border: 1px solid #D1D1D1;
-    border-radius: 4px;
-    box-shadow: none;
+
+
+.onn{
+    width: 90%;
     box-sizing: border-box;
+    margin: 10px;
+    margin-left: 380px;
 }
 
-
-
 .u-full-width {
-    width: 100%;
+    width: 90%;
     box-sizing: border-box;
+    margin: 10px;
 }
 fieldset, input, select, textarea {
     margin-bottom: 1.5rem;
@@ -45,11 +44,11 @@ button, input, optgroup, select, textarea {
 }
 
 textarea {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 textarea {
     min-height: 65px;
-    padding-top: 6px;
+    padding-top: 8px;
     padding-bottom: 6px;
 }
 input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], textarea {
@@ -65,6 +64,7 @@ input[type=email], input[type=number], input[type=password], input[type=search],
     border-radius: 4px;
     box-shadow: none;
     box-sizing: border-box;
+
 }
 textarea {
     overflow: auto;
@@ -76,5 +76,17 @@ button, input, optgroup, select, textarea {
     margin: 0;
 }
 
-
+.one-half.column {
+    width: 40%;
+  }
   
+  label {
+    margin-bottom: 1.5rem; /* Aumentar el espacio entre etiquetas y campos de entrada */
+  }
+  
+  /* Cambiar el color del botón Agregar Cita */
+  .u-full-width .button-primary {
+    background-color: #1EAEDB;
+    padding:10px; 
+  }
+

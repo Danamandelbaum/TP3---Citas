@@ -10,6 +10,15 @@
     color: black;
     margin-bottom: 20px;
 }
+.cita {
+    padding: 2rem;
+    width: 50%;
+    background: white;
+    border-bottom: 1px solid #e1e1e1;
+    color: black;
+    margin-bottom: 20px;
+}
+
 div {
     display: block;
 }
